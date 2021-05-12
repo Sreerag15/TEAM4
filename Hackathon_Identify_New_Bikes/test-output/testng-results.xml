@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-12T10:57:55 IST" name="Suite" finished-at="2021-05-12T11:00:23 IST" duration-ms="148034">
+    <groups>
+      <group name="Regression Test">
+        <method signature="TestCases.selectHondaBikes()[pri:0, instance:com.testcases.TestCases@707194ba]" name="selectHondaBikes" class="com.testcases.TestCases"/>
+        <method signature="TestCases.clickViewMore()[pri:0, instance:com.testcases.TestCases@707194ba]" name="clickViewMore" class="com.testcases.TestCases"/>
+        <method signature="TestCases.displayUpcomingBikes()[pri:0, instance:com.testcases.TestCases@707194ba]" name="displayUpcomingBikes" class="com.testcases.TestCases"/>
+        <method signature="TestCases.selectChennai()[pri:0, instance:com.testcases.TestCases@707194ba]" name="selectChennai" class="com.testcases.TestCases"/>
+        <method signature="TestCases.getPopularModels()[pri:0, instance:com.testcases.TestCases@707194ba]" name="getPopularModels" class="com.testcases.TestCases"/>
+        <method signature="TestCases.verifyChennai()[pri:0, instance:com.testcases.TestCases@707194ba]" name="verifyChennai" class="com.testcases.TestCases"/>
+        <method signature="TestCases.clickLogin()[pri:0, instance:com.testcases.TestCases@707194ba]" name="clickLogin" class="com.testcases.TestCases"/>
+      </group> <!-- Regression Test -->
+      <group name="Smoke Test">
+        <method signature="TestCases.clickUpComingBikes()[pri:0, instance:com.testcases.TestCases@707194ba]" name="clickUpComingBikes" class="com.testcases.TestCases"/>
+        <method signature="TestCases.verifyHondaPage()[pri:0, instance:com.testcases.TestCases@707194ba]" name="verifyHondaPage" class="com.testcases.TestCases"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test started-at="2021-05-12T10:57:55 IST" name="Test" finished-at="2021-05-12T11:00:23 IST" duration-ms="148034">
+      <class name="com.testcases.TestCases">
+        <test-method is-config="true" signature="invokedriver()[pri:0, instance:com.testcases.TestCases@707194ba]" started-at="2021-05-12T10:57:55 IST" name="invokedriver" finished-at="2021-05-12T10:58:21 IST" duration-ms="25929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokedriver -->
+        <test-method signature="clickUpComingBikes()[pri:0, instance:com.testcases.TestCases@707194ba]" started-at="2021-05-12T10:58:21 IST" name="clickUpComingBikes" finished-at="2021-05-12T10:58:34 IST" duration-ms="13176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickUpComingBikes -->
+        <test-method signature="selectHondaBikes()[pri:0, instance:com.testcases.TestCases@707194ba]" started-at="2021-05-12T10:58:34 IST" name="selectHondaBikes" finished-at="2021-05-12T10:58:48 IST" depends-on-methods="com.testcases.TestCases.clickUpComingBikes" duration-ms="13624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHondaBikes -->
+        <test-method signature="clickViewMore()[pri:0, instance:com.testcases.TestCases@707194ba]" started-at="2021-05-12T10:58:48 IST" name="clickViewMore" finished-at="2021-05-12T10:59:01 IST" depends-on-methods="com.testcases.TestCases.selectHondaBikes" duration-ms="13574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickViewMore -->
+        <test-method signature="displayUpcomingBikes()[pri:0, instance:com.testcases.TestCases@707194ba]" started-at="2021-05-12T10:59:01 IST" name="displayUpcomingBikes" finished-at="2021-05-12T10:59:27 IST" depends-on-methods="com.testcases.TestCases.clickViewMore" duration-ms="25586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayUpcomingBikes -->
+        <test-method signature="verifyHondaPage()[pri:0, instance:com.testcases.TestCases@707194ba]" started-at="2021-05-12T10:59:27 IST" name="verifyHondaPage" finished-at="2021-05-12T10:59:27 IST" depends-on-methods="com.testcases.TestCases.displayUpcomingBikes" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHondaPage -->
+        <test-method signature="selectChennai()[pri:0, instance:com.testcases.TestCases@707194ba]" started-at="2021-05-12T10:59:27 IST" name="selectChennai" finished-at="2021-05-12T10:59:39 IST" depends-on-methods="com.testcases.TestCases.verifyHondaPage" duration-ms="12309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectChennai -->
+        <test-method signature="getPopularModels()[pri:0, instance:com.testcases.TestCases@707194ba]" started-at="2021-05-12T10:59:39 IST" name="getPopularModels" finished-at="2021-05-12T10:59:52 IST" depends-on-methods="com.testcases.TestCases.selectChennai" duration-ms="12468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPopularModels -->
+        <test-method signature="verifyChennai()[pri:0, instance:com.testcases.TestCases@707194ba]" started-at="2021-05-12T10:59:52 IST" name="verifyChennai" finished-at="2021-05-12T10:59:52 IST" depends-on-methods="com.testcases.TestCases.getPopularModels" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChennai -->
+        <test-method signature="clickLogin()[pri:0, instance:com.testcases.TestCases@707194ba]" started-at="2021-05-12T10:59:52 IST" name="clickLogin" finished-at="2021-05-12T11:00:22 IST" depends-on-methods="com.testcases.TestCases.verifyChennai" duration-ms="30269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.testcases.TestCases@707194ba]" started-at="2021-05-12T11:00:22 IST" name="close" finished-at="2021-05-12T11:00:23 IST" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.testcases.TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,11 @@
+1)To start selenium hub:
+  
+    java -jar "D:\jar files\selenium-server-standalone-3.141.59.jar" -role hub
+
+2)Grid console:
+
+    https://localhost:4444/grid/console
+  
+3)To start selenium node:
+
+     java -Dwebdriver.chrome.driver="D:\jar files\selenium jars\chromedriver.exe" -jar  "D:\jar files\selenium-server-standalone-3.141.59.jar" -role webdriver -hub  http://192.168.1.100:4444/grid/register/ -port 5556 -browser browserName=chrome 
